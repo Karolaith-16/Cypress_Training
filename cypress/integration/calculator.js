@@ -1,7 +1,7 @@
 describe("test the calculator operation", function(){
 
     beforeEach(function(){
-        cy.visit("./calculator/calculator.html");
+        cy.visit("/");
     })
     //Sum
     it("sum 0 + 0", function(){
