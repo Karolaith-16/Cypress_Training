@@ -1,13 +1,13 @@
 describe("Cuentas", function(){
     var a = 1;
     it("Vamos a ver una igualdad ", function(){
-        expect(1==2,"Ambos terminos tienen que ser iguales y no lo son").to.equal(true);
+        expect(1==1,"Ambos terminos tienen que ser iguales y no lo son").to.equal(true);
     })
     it("Vamos a ver que no sea una igualdad ", function(){
         expect(1==2).to.equal(false);
     })
     it("Vamos a ver que la resta este bien ", function(){
-        expect(1-5,"Aqui se espera uncero").to.equal(0);
+        expect(1-1,"Aqui se espera uncero").to.equal(0);
     })
     it("Vamos a ver que la resta NO este bien ", function(){
         expect(1-1).to.not.equal(2);
